@@ -6,4 +6,4 @@ jobs:
   harmon:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "The head of this PR starts with 'releases/'"
+      - run: echo "modified"
