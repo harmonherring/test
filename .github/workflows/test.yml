@@ -1,0 +1,15 @@
+name: Harmon Test
+on: 
+pull_request_target:
+  types:
+    - opened
+    - synchronize
+
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            echo 'hello world'
